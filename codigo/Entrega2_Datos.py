@@ -71,7 +71,7 @@ def dijkstra(inicial,final):
  
 
 
-temp=dijkstra('(-75.5641291, 6.2265514)','(-75.7161351, 6.3424055)')
+temp=dijkstra('(-75.5641291, 6.2265514)','(-75.5772295, 6.2507366)')
 
 latitude_list = []
 longitude_list = [] 
