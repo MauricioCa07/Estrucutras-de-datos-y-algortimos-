@@ -73,17 +73,9 @@ def dijkstra(inicial,final):
 
 temp=dijkstra('(-75.5641291, 6.2265514)','(-75.7161351, 6.3424055)')
 
-ubicaciones={}
-
-
 latitude_list = []
 longitude_list = [] 
     
-for i in range (0,len(temp)):
-    valores=str(temp[i])
-    ubicaciones[float(valores[1:valores.find(",")])]=float(valores[valores.find(",")+2:len(valores)-1])
-    
-
 for i in range (0,len(temp)):
     valores=str(temp[i])
     longitude_list.append(float(valores[1:valores.find(",")]))
