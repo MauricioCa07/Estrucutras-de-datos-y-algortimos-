@@ -85,4 +85,4 @@ for i in range (0,len(temp)):
 gmap3 = gmplot.GoogleMapPlotter(latitude_list[0],longitude_list[0], 13) 
 gmap3.scatter( latitude_list, longitude_list, '# FF0000', size = 40, marker = False ) 
 gmap3.plot(latitude_list, longitude_list, 'cornflowerblue', edge_width = 2.5) 
-gmap3.draw( "C:\Programacion_Visual\Datos.py\map13.html" )
+gmap3.draw( "C:\Programacion_Visual\Datos.py\mapaConPuntos.html" )
